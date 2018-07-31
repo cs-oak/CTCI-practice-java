@@ -7,6 +7,11 @@ import java.util.Set;
 
 public class UniqueString {
 
+    /**
+     * Checks whether given string is unique
+     * @param str
+     * @return
+     */
     public boolean isUnique(String str) {
         Set uniqueSet = new HashSet();
 
@@ -20,6 +25,10 @@ public class UniqueString {
         return true;
     }
 
+    /**
+     * Prints the result
+     * @param isUnique
+     */
     public void printUnqiue(boolean isUnique) {
         System.out.println(isUnique ? "Unique!" : "Not Unique!");
     }
