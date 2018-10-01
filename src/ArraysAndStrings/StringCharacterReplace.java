@@ -1,5 +1,4 @@
-import java.util.List;
-import java.util.Arrays;
+package ArraysAndStrings;
 
 public class StringCharacterReplace {
 

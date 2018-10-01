@@ -1,3 +1,5 @@
+package ArraysAndStrings;
+
 import java.util.Arrays;
 
 /**
@@ -5,21 +7,10 @@ import java.util.Arrays;
  */
 public class StringPermutation {
 
-    /**
-     * Sort the strings and check if they're the same
-     * @param a
-     * @param b
-     * @return
-     */
     private boolean isPermutation(String a, String b) {
         return sortString(a).equals(sortString(b));
     }
 
-    /**
-     * Simple method to sort a String
-     * @param str
-     * @return
-     */
     private String sortString(String str) {
        char[] sort = str.toCharArray();
         Arrays.sort(sort);
