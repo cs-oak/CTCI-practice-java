@@ -9,10 +9,6 @@ public class ReverseString {
         int len = input.length() - 1;
         char temp;
         for (int i = 0; i <= len/2; i++) {
-            if (i == (len - i)) {
-                continue;
-            }
-
             temp = str[i];
             str[i] = str[len - i];
             str[len - i] = temp;
